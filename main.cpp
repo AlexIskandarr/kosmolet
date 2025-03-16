@@ -1,5 +1,18 @@
 #include <iostream>
-int main() {
-  std::cout << "Hi";
+#include "D:/System Volume lnformation/gitkosmolet/Crocodos.h"
+int main() 
+{
+	int32_t array[100]{};
+	int32_t size{};
+	std::cout << " Input size of array ";
+	std::cin >> size;
+	InputArray(array,size);
+	PrintArray(array,size);
+	CountElements(array,size);
+	std::cout << " Input your number ";
+	int64_t number{};
+	std::cin >> number;
+	std::cout << " order of your number is " << FindElement(array, size, number);
+	std::cout << "Max and min elements of your array are" << MaxElement(array, size) <<MinElement(array,size);
   return 0;
 }
