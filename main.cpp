@@ -1,5 +1,5 @@
 #include <iostream>
-#include "D:/System Volume lnformation/gitkosmolet/Crocodos.h"
+#include "Crocodos.h"
 int main() 
 {
 	int32_t array[100]{};
