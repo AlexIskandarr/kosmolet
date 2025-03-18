@@ -100,9 +100,3 @@ void InputArray(int32_t* array, int32_t size){
 		std::cin >> array[i];
 	}
 }
-
-void PrintArray(int32_t* array, int32_t size){
-	for( int32_t i = 0; i < size; ++i){
-		std::cout << array[i];
-	}
-}
