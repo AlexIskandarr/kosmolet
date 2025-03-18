@@ -35,7 +35,7 @@ void InputNumber(int64_t number)
 	std::cin >> number;
 }
 
-void printArray(int64_t arr[], int32_t size)
+void PrintArray(int64_t arr[], int32_t size)
 {
 	for (int32_t i = 0; i < size; i++)
 	{
