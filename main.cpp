@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Crocodos.h"
+#include "Crocodos.cpp"
 int main() 
 {
 	int32_t array[100]{};
