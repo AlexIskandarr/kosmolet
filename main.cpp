@@ -14,5 +14,6 @@ int main()
 	std::cin >> number;
 	std::cout << " order of your number is " << FindElement(array, size, number);
 	std::cout << "Max and min elements of your array are" << MaxElement(array, size) <<MinElement(array,size);
+	std::cout << "Replace Negative with zero in array" << ReplaceZero(array, size)
   return 0;
 }
