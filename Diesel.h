@@ -1,4 +1,5 @@
-void EnterSize(int32_t&);
+#include <cstdint>
+void InputSize(int32_t&);
 bool CheckSize(int32_t );
 void FillArray(double* ,int32_t );
 int32_t MaxDigit(double* ,int32_t );
